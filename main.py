@@ -26,7 +26,6 @@ def get_count_letters(text):
     return letter_count
 
 def sort_letter_count(letter_count):
-    # return {k: v for k, v in sorted(letter_count.items(), key=lambda item: item[1], reverse=True)}
     return dict(sorted(letter_count.items())) 
 
 def print_report(num_words, letter_count, path):
