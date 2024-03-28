@@ -3,7 +3,6 @@ def main():
     text: str = get_book_text(book_path)
     num_words: int = get_count_words(text)
     letter_count: dict = get_count_letters(text)
-    print(f"Letter count:\n {letter_count}")
     print_report(num_words, letter_count, book_path)
 
 def get_count_words(text):
